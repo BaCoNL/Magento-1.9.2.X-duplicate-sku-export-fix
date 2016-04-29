@@ -1,0 +1,15 @@
+{
+    "name": "baconl/magento-1.9.2.x-duplicate-sku-export-fix",
+    "description": "Magento dataflow profile export duplicate sku fix. This is only a core file override that uses the file from a earlier version of Magento, it fixes the problem. I would suggest removing it once there is a magento update that fixes the problem.",
+    "type": "magento-module",
+    "authors": [
+        {
+            "name": "Bart Coppelmans",
+            "email": "bart.coppelmans@innokoda.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
